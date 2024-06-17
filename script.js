@@ -19,7 +19,7 @@ const calcularFactorial = function (n) {
     if (n === 0) {
       return 1;
     } else {
-      return n * factorial(n - 1);
+      return n * calcularFactorial(n - 1);
     }
 }
 
@@ -29,7 +29,7 @@ const calcularElFactorial = (n) => {
     if (n === 0) {
       return 1;
     } else {
-      return n * factorial(n - 1);
+      return n * calcularElFactorial(n - 1);
     }
 }
 
